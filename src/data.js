@@ -1,35 +1,14 @@
-/* const poki = POKEMON.pokemon;
-for (i=0; i< poki.length ; i++){
-console.log(poki[i].name)
-} 
-*/
-const root = document.getElementById('root');
+const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+let newArr = [];
 
-const filter = () => {
-  for (let i=0; i<filter.length; i++);
-  }
+for(let j=0; j<alphabet.length; j++);
 
-// filter(POKEMON.pokemon)
+for(let i =0; i<poki.length; i++);
+poke1 = poki[i].name.charAt(0);
 
+if (alphabet===poke1){
+ newArr.push(poki[i]);
 
-const poki = (pokedex) => {
-  for (let i = 0; i < POKEMON.pokemon.length; i++) {
-    root.innerHTML += `
-      <div>
-        <p>Number: ${pokedex[i].id}</p>
-        <p>Name: ${pokedex[i].name}</p>
-        <p>Type: ${pokedex[i].type}</p>
-        <p>height: ${pokedex[i].height}</p>
-        <p>weight: ${pokedex[i].weight}</p>
-        <p>candy: ${pokedex[i].candy}</p>
-        <p>candy_count: ${pokedex[i].candy_count}</p>
-        <p>egg: ${pokedex[i].egg}</p>
-        <figure>
-          <img src="${pokedex[i].img}" alt="perfil" class="img-profile">
-       </figure>
-      </div> 
-    `;
-  }
-}
+};
+console.log(newArr);
 
-poki(POKEMON.pokemon);
